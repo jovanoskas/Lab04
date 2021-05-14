@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container{
+    font-size: 18px;
+    color: black;
+    top:0;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    display: inline;
+}
+.container a{
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+    display: block;
+}
+
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: inline-block;
+}
+
+.lorem{
+    margin-top: 20px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+.middle{
+    border-style: solid;
+    border-color: darkblue;
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 600px;
+}
+
+.lorem img{
+    float: right;
+    margin-top:-250px;
+    padding-right: 70px;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+
+.lorem p{
+    color: white;
+    padding-left: 25px;
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+footer{
+    color: black;
+    background-color: white;
+    float: bottom;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.berries{
+    border-style: solid;
+    border-color: darkseagreen;
+    background-color: darkseagreen;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.berry{
+    padding-top: 5px;
+
+}
+
+.berry img{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 200px;
+    width: 350px;
+    padding-right: 20px;
+    border-radius: 35px;
+}
+.lalies{
+    padding-left: 5px;
+    padding-top: 120px;
+}
+.lalies img{
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    height: 200px;
+    width: 350px;
+    border-radius: 35px;
+
+}
+.contact{
+    border-style: solid;
+    border-color: limegreen;
+    background-color: limegreen;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    color:white;
+}
+
+.touch{
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 400px;
+    padding-left: 120px;
+    padding-top:50px;
+    padding-right: 120px;
+}
+.touch h1,h5,p{
+    text-align: left;
+    padding-right:500px;
+}
+
+.touch iframe{
+    float: right;
+    float: right;
+    margin-top:-170px;
+    padding-right: 70px;
+}
