@@ -1,11 +1,12 @@
-body{
+html,body{
     background-color: white;
+    height: 100%;
+    padding: 0;
 }
 ul{
     list-style-type: none;
     margin:0;
     padding: 0;
-    margin-top: 0;
     overflow: hidden;
 }
 li{
@@ -23,6 +24,9 @@ li a{
     font-size: 18px;
     color: black;
     top:0;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
     display: inline;
 }
 .container a{
@@ -41,6 +45,8 @@ li a{
 
 .lorem{
     margin-top: 20px;
+    border-top-style: solid;
+    border-top-color: black;
 }
 .middle{
     border-style: solid;
@@ -69,13 +75,21 @@ li a{
 }
 
 footer{
-    float: bottom;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+    border-width: 1px;
     width: 100%;
+    color: black;
+    background-color: white;
+    float: bottom;
+    border-top-style: solid;
+    border-top-color: black;
 }
 
+#h3{
+    padding-top: 10px;
+}
 .berries{
     border-style: solid;
     border-color: darkseagreen;
@@ -91,11 +105,7 @@ footer{
 .berry{
     padding-top: 5px;
 }
-.berry p{
-    width: 100%;
-    font-size: 20px;
-    padding-top: 20px;
-}
+
 .berry img{
     float: left;
     padding-left: 5px;
@@ -108,10 +118,6 @@ footer{
 .lalies{
     padding-left: 5px;
     padding-top: 30px;
-}
-.lalies p{
-    width: 100%;
-    font-size: 20px;
 }
 .lalies img{
     float: right;
@@ -129,34 +135,85 @@ footer{
     background-color: lightgreen;
     background-repeat: no-repeat;
     margin-top: 40px;
-    height: 60px;
+    height: 70px;
     padding-left: 120px;
     padding-right: 120px;
     color:white;
 }
 
-.touch{
+.company{
     border-style: solid;
     border-color: lightgrey;
     background-color: lightgrey;
     background-repeat: no-repeat;
     margin-top: 40px;
-    height: 400px;
+    height: 300px;
     padding-left: 120px;
-    padding-top:50px;
+    padding-top:100px;
     padding-right: 120px;
+    padding-bottom: 200px;
 }
-.touch h1,h5,p{
+.company h1,h5,p{
     text-align: left;
-    padding-right:500px;
 }
 
-.touch iframe{
+.left{
+    float: left;
+}
+.right{
     float: right;
-    margin-top:-170px;
-    padding-right: 70px;
 }
 
-#h3{
-    padding-top: 10px;
+#div1{
+    text-align: center;
+}
+
+#div2{
+    text-align: center;
+}
+
+#div3{
+    text-align: center;
+}
+
+#div4{
+    text-align: center;
+}
+
+.company img{
+    width: 200px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column p{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.frame {
+    width: 230px;
+    height: 300px;
+    border: 3px solid #ccc;
+    background: white;
+    margin: auto;
+    padding: 15px 10px;
+    border-radius: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.containerteam{
+    margin-top: -40px;
+    text-align: center;
+    color: white;
 }
